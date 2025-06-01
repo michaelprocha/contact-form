@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background-image: url("background-image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__main{
+    width: 80dvw;
+    height: 80dvh;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 20px 1px #4C4C4C;
+}
+
+/*
+        /////////////   header    ///////////
+*/
+
+.main__header {
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__title {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding-bottom: 0.5%;
+    color: #222222;
+}
+
+.header__img{
+    width: 1.5%;
+}
+
+.header__number {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #222222;
+}
+
+/*
+        /////////////   main section    ///////////
+*/
+
+.main__secondary {
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secundary__boxtitle {
+    width: 40%;
+    height: 60%;
+    border-bottom: 3px solid #222222;
+    border-top: 3px solid #222222;
+    border-left: 3px solid #222222;
+}
+
+.boxtitle__title {
+    padding: 3% 0 2% 5%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    width: 10%;
+    color: #222222;
+}
+
+/*
+        /////////////   main form    ///////////
+*/
+
+.secundary__boxform {
+    width: 50%;
+    height: 90%;
+    background-color: #FFD835;
+    border: #FFD835;
+}
+
+.boxform__form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__text {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    align-self: start;
+    margin-left: 10%;
+    padding: 0 0 1% 0;
+    color: #222222;
+}
+
+.form__get {
+    background-color: #FFD835;
+    border-style: none;
+    border-bottom: 1px solid #222222;
+    width: 80%;
+    margin-bottom: 3%;
+    color: #222222;
+    
+}
+
+.form__get-text{
+    background-color: #FFD835;
+    border-style: none;
+    border-bottom: 1px solid #222222;
+    width: 80%;
+    padding-bottom: 5%;
+    color: #222222;
+    font-family: "Nunito", sans-serif;
+}
+
+.form__send {
+    border: 1px solid #000000;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 1% 0;
+    margin-top: 4%;
+    color: #ffffff;
+    width: 80%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
